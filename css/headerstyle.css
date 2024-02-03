@@ -1,0 +1,41 @@
+.topofHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    color: #355EFC;
+}
+.topright, .topleft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+#logo{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+.menu{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mainofHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainofHeader>div{
+    width: 50%;
+    align-items: center;
+}
+#textOfHeader{
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}

@@ -23,6 +23,7 @@
     gap: 5px;
 }
 
+
 .mainofHeader{
     display: flex;
     justify-content: space-between;
@@ -46,4 +47,26 @@ header{
     background-size: 100%;
     background-position: bottom;
     margin-bottom: 77px;
+}
+.sliderButton{
+    padding: 0px;
+    top:0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    opacity: .75;
+    border: 0px;
+}
+.leftbutton{
+    left:0;
+}
+.rightbutton{
+    right:0; 
+}
+.sliderButton:hover{
+    opacity: 10;
 }

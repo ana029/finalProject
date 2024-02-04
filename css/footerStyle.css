@@ -1,0 +1,27 @@
+.mainoffooter, .bottonOfFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 10px;
+    line-height: 200%;
+}
+
+.backgraundForFooterMain{
+    margin-top: 250px;
+    background-color: #011A41;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+    padding-top: 57px;
+}
+.backgraundForFooterBotton{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#signup{
+    padding: 10px;
+
+}

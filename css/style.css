@@ -7,9 +7,14 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto; 
-    margin-bottom: 130px;
+    
 }
 
+.wraperforfooter{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
 button{
 
     border-radius: 10px;

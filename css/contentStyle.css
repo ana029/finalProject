@@ -1,0 +1,127 @@
+.helpOurClients, .serviceShortItems,.ourResults, .reasonWhy, .contentforBusinessServices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.serviceShortItems{
+    border: 1px solid #909DE2;
+    border-radius: 25px;
+    padding: 20px;
+    gap:20px;
+}
+.serviceShortItems>div{
+    align-items: center;    
+}
+.contentforBusinessServices>div{
+    width: 30%;
+    gap: 10px;
+}
+.helpOurClients>div{
+    width: 48%;
+    color:#555555;
+}
+#aboutUs{
+    color:#355EFC;
+    border: 1px solid #CAD2FC;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.20);
+}
+#aboutUs:hover{
+    background-color: #CAD2FC;
+}
+#growbusiness{
+    color:black; 
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.helpOurClientstext{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.headerofservices{
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.textofservices{
+    color: #555555;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.backgroundforourResults{
+    width: 100vw;
+    background-color: #355EFC;
+
+}
+.ourResults>div{
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+}
+.number{
+    color: white;
+    font-size: 56px;
+    line-height: 120%;
+    font-weight: 700;
+    align-items: center;
+}
+.textofourresults{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    align-items: center;
+}
+#reasonWhy1{
+    width: 48%;
+    padding: 20px;
+}
+#reasonWhy2 {
+    width: 24%;
+}
+#resonWhy3 {
+    width: 24%;
+}
+.boxforReason{
+    padding: 20px;
+    border: 1px solid #909DE2;
+    border-radius: 15px;
+    gap:18px;
+    margin-bottom: 20px;
+}
+.boxforReason:hover{
+    background-color: #355EFC;
+}
+h2{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h5{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.manuboxes{
+    width: 100%;
+    padding: 20px;
+    border:1px solid #909DE2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    justify-items: center;
+}
+.manuboxes:hover{
+    background-color: #355EFC;
+    color: white;
+}
+.menutext{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+}

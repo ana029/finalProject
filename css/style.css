@@ -11,13 +11,12 @@
 }
 
 button{
-    width: 160px;
-    height: 40px;
+
     border-radius: 10px;
     border: 1px solid white;
     background-color: white;
     color: #355EFC;
-    padding: 10px;
+    padding: 15px 25px;
     gap:10px;
     margin-top: 25px;
 }
@@ -27,8 +26,17 @@ button{
     padding: 10px, 25px, 10px, 25px;
     font-weight: 700;
 }
+.whitebutton{
+    color:#355EFC;
+    border: 1px solid #CAD2FC;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.20);
+    margin-bottom: 20px;
+}
 .bluebutton:hover{
-    background-color: #0a1b5f;
+    background-color: #1841e6;
+}
+.whitebutton:hover{
+    background-color: rgb(248, 244, 244);
 }
 ul, li{
     list-style-type: none;

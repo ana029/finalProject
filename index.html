@@ -10,7 +10,7 @@
     <link href="./css/footerStyle.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
+    <header id="headerId" class="changeBackground1">
         <div class="topofHeader wraper">
             <div class="topleft">
                 <div>
@@ -64,10 +64,10 @@
             </div>
 
         </div>
-        <button class="sliderButton leftbutton">
+        <button class="sliderButton leftbutton" onclick="changeBackgroundLeft()">
             <img src="./image/header/headerpictures/slider-button-left.svg"/>
         </button>
-        <button class="sliderButton rightbutton">
+        <button class="sliderButton rightbutton" onclick="changeBackgroundRight()">
             <img src="./image/header/headerpictures/slider-button-right.svg"/>
         </button>
     </header>
@@ -271,5 +271,6 @@
         </div>       
     </footer>
     <script src="./js/aboutUs.js"></script>
+    <script src="./js/chanfeBackground.js"></script>
 </body>
 </html>

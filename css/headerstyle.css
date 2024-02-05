@@ -42,12 +42,7 @@
 #welcometofinanza{
     background-color: #DEE2FB;
 }
-header{
-    background-image: url(https://themewagon.github.io/finanza/img/carousel-1.jpg);
-    background-size: 100%;
-    background-position: bottom;
-    margin-bottom: 77px;
-}
+
 .sliderButton{
     padding: 0px;
     top:0;
@@ -69,4 +64,15 @@ header{
 }
 .sliderButton:hover{
     opacity: 10;
+}
+header{
+    background-size: 100%;
+    background-position: top;
+    margin-bottom: 77px;
+}
+header.changeBackground1{
+    background-image: url(https://themewagon.github.io/finanza/img/carousel-1.jpg);
+}
+.changeBackground2{
+    background-image: url(https://themewagon.github.io/finanza/img/carousel-2.jpg);
 }

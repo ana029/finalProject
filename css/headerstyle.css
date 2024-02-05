@@ -30,10 +30,11 @@
     align-items: center;
 }
 .mainofHeader>div{
-    width: 48%;
+    width: 60%;
     align-items: center;
 }
 #textOfHeader{
+    font-family: roboto;
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
@@ -68,6 +69,7 @@
 header{
     background-size: 100%;
     background-position: top;
+    background-repeat: no-repeat;
     margin-bottom: 77px;
 }
 header.changeBackground1{

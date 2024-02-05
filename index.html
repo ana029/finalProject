@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>financial Project</title>
+    <link href="./fonts/fontStyle.css" rel="stylesheet"/>
+    <link href="./css/contentStyle.css" rel="stylesheet"/>
     <link href="./css/style.css" rel="stylesheet"/>
     <link href="./css/headerstyle.css" rel="stylesheet"/>
     <link href="./css/contentStyle.css" rel="stylesheet"/>
@@ -209,12 +211,12 @@
                 <button class="whitebutton">Get In Touch</button>
                 <form>
                     <h2>Request A Call-Back</h2>
-                    <input class="inputInformation" type="text" name="name"  placeholder="Your name">
-                    <input class="inputInformation" type="text" name="email"  placeholder="Your Email">
-                    <input class="inputInformation" type="text" name="phone"  placeholder="Your phone">
-                    <input class="inputInformation" type="text" name="subject"  placeholder="Your Subject">
+                    <input class="inputInformation" id="inputName" type="text" name="name"  placeholder="Your name">
+                    <input class="inputInformation" id="inputEmail" type="text" name="email"  placeholder="Your Email">
+                    <input class="inputInformation" id="inputPhone" type="text" name="phone"  placeholder="Your phone">
+                    <input class="inputInformation" id="inputText" type="text" name="subject"  placeholder="Your Subject">
                     <input id="messagetext" type="text" name="message"  placeholder="Message">
-                    <input id="subButton" type="submit" value="Submit Now">
+                    <input id="subButton" type="submit"  value="Submit Now" onclick="validateInputs()">
                 </form>
             </div>
         </div>
@@ -272,5 +274,6 @@
     </footer>
     <script src="./js/aboutUs.js"></script>
     <script src="./js/chanfeBackground.js"></script>
+    <script src="./js/inputInformation.js"></script>
 </body>
 </html>

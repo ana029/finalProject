@@ -9,3 +9,4 @@ function changeBackgroundRight() {
     element.classList.remove("changeBackground2");  
     element.classList.add("changeBackground1");  
  }
+ 

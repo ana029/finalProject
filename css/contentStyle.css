@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 45px;
 }
 
 .serviceShortItems{
@@ -87,6 +88,7 @@
 }
 .boxforReason:hover{
     background-color: #355EFC;
+    color: white;
 }
 h2{
     color: black;

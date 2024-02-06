@@ -13,6 +13,11 @@
 }
 .serviceShortItems>div{
     align-items: center;    
+    border-right: 1px solid #b9b9b9;
+    padding-right: 25px;
+}
+#rightDivOfServiceShortItems{
+    border-right: 0px;
 }
 .contentforBusinessServices>div{
     width: 30%;

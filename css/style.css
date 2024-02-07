@@ -53,13 +53,16 @@ button{
 }
 ul, li{
     list-style-type: none;
-    display: inline-block; 
+    display: inline-block;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 36px;
-    transition: all .25s ease;
+
+     transition: all .25s ease;
+}
+.headerMenu{
+    padding-left: 32px;
 }
 li:hover{
     font-size: 20px;

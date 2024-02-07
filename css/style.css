@@ -16,7 +16,7 @@
     margin: 0 auto; 
 }
 button{
-    
+
     border-radius: 10px;
     border: 1px solid white;
     background-color: white;
@@ -48,6 +48,9 @@ button{
 .whitebutton:hover{
     background-color: rgb(248, 244, 244);
 }
+#headerbutton{
+    margin-bottom: 123px;
+}
 ul, li{
     list-style-type: none;
     display: inline-block; 
@@ -56,6 +59,11 @@ ul, li{
     font-weight: 700;
     line-height: normal;
     padding-left: 36px;
+    transition: all .25s ease;
+}
+li:hover{
+    font-size: 20px;
+    color: #1841e6;
 }
 .pictures{
     width: 100%;

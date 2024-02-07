@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 45px;
+    flex-wrap: wrap;
 }
 
 .serviceShortItems{
